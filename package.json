@@ -1,0 +1,9 @@
+{
+  "name": "govhack2017",
+  "version": "1.0.0",
+  "description": "Anti Money Laundering for Small Business using Data61 RaaP",
+  "main": "index.js",
+  "repository": "git@github.com:saidur2k/govhack2017.git",
+  "author": "Saidur Rahman <saidur2k@hotmail.com> (http://rudias.com/)",
+  "license": "MIT"
+}
