@@ -1,0 +1,27 @@
+{
+  "name": "GovHack2017",
+  "description": "Anti Money Laundering for Small Business using Data61 RaaP",
+  "keywords": ["aml", "ctf", "govhack"],
+  "website": "https://govhack2017.herokuapp.com/",
+  "repository": "https://github.com/saidur2k/govhack2017",
+  "scripts": {
+    "postdeploy": "yarn start"
+  },
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 2,
+      "size": "Performance-M"
+    }
+  },
+  "image": "heroku/node",
+  "addons": [],
+  "buildpacks": [],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "yarn run test"
+      }
+    }
+  }
+}
